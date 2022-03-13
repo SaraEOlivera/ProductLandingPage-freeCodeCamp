@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <img src="https://i.pinimg.com/originals/bd/e2/b8/bde2b8db423ffa64e1af6aac6ced2fc3.jpg" alt="logo-page" id="header-img">Pianos Vera
+        </div>
+
+
+        <nav id="nav-bar">
+            <ul class="menu">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">How it Works</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit)">
+        <label id="bef-email">Handcrafted, home-made masterpieces</label>
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail" required> <br>
+
+        <button type="submit" id="submit"><a href=" https://www.freecodecamp.com/email-submit" target="_blank">Submit</a></button>
+    </form>
+
+
+    
+    <section id="features">
+        <div id="premium-section">
+        <img src="https://cdn-icons-png.flaticon.com/512/1454/1454825.png" alt="premium-mat" id="premium">
+            <p id="premium-text">Premium Materials</p>
+            <p id="premium-p">Our pianos use the shiniest wood which is sourced locally. 
+            This will increase the longevity of your purchase.</p> <br>
+        </div>
+
+        <div id fast-section>
+                <img src="data:image/png;base64,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" alt="fast-shipping" id="fast">
+                <p id="fast-text">Fast Shipping</p>
+                <p id="fast-p">We make sure you recieve your piano as soon as we have finished making
+             it. We also provide free returns if you are not satisfied.</p> <br>
+        </div>
+
+        <div id="quality-section">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4uUMC5XMBRXv9A3TGY5My6HCsRSbMfT4MQ&usqp=CAU" alt="quality-assurance" id="quality">
+            <p id="quality-text">Quality Assurance</p>
+            <p id="quality-p">For every purchase you make, we will ensure there are no damages or faults
+             and we will check and test the pitch of your instrument.</p> <br>
+        </div>
+
+    </section>
+
+    <div id="video-page" style="text-align: center;">
+            <iframe width="600" height="335" src="https://www.youtube.com/embed/e8NIOMRxAI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>    
+        </div> <br> <br>
+
+    <section id="pricing">
+
+        <div id="clavi">
+            <p id="clavi-t">Clavinovas</p><br>
+            <p id="clavi-price">$6,299.99</p> <br>
+            <p id="clavi-p">Explore a world of music with clavinova endless possibilities on an amazing instrument.</p> <br> <br>
+            <button type="button" id="select">Select</button><br>
+        </div>
+
+        <div id="hybrid">
+            <p id="hybrid-t">Hybrid Piano</p> <br>
+            <p id="hybrid-price">$15,499.00</p> <br>
+            <p id="hybrid-p">Amazing sound reproducing qualities of a digital piano sound engine.</p><br> <br>
+            <button type="button" id="select">Select</button><br>
+
+        </div>
+
+        <div id="disc">
+            <p id="disc-t">Disklaiver</p><br>
+            <p id="disc-price">$3,599.00</p><br>
+            <p id="disc-p">Enjoy an unlimited array of recording, playback, educational and entertainment possibilities.</p> <br> <br>
+            <button type="button" id="select">Select</button><br>
+
+           
+        </div>
+
+    </section> 
+
+
+    <footer>
+        <div id="footer">
+        <h4>Copyright 2016, Pianos Vera</h4>
+        <p>Contact us to: <a href="#" id="contact">pianosvera@pianosvera.com</a></p>
+    </div>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
